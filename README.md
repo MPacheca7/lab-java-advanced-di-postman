@@ -85,6 +85,22 @@ Once you finish the assignment, submit a URL link to your repository or your pul
 
 <br />
 
+![discountOk.png](discountOk.png)
+
+-------------------
+
+![notDiscount.png](notDiscount.png)
+
+-------------------
+
+![discountFalse.png](discountFalse.png)
+
+-------------------
+
+![test.png](test.png)
+
+
+
 ### 3. Documentation in README.md
 
 Update your repository’s `README.md` to include:
@@ -92,9 +108,13 @@ Update your repository’s `README.md` to include:
 - A brief explanation of your design choices for the **EarlyBirdDiscountService**.
 - Answers to:
   - Why did you choose constructor-based DI for this lab?
+- `Es util para inyectar multiples dependencias`
   - What advantages do Postman pre-request and post-response scripts offer for automated testing?
+- `Mensajes o errores esperados`
   - How does your application behave when the early bird feature is disabled?
+- `El bean EarlyBirdDiscountService no se crea gracias a @ConditionalOnProperty`
   - What are some challenges you faced when integrating advanced DI with API testing?
+- `Diseñar el controlador para comportarse correctamente tanto si el servicio está disponible como si no.`
 
 <br />
 
